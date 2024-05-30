@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T11:29:17.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="uXaQMSGMeBXh8rciRyWW" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T11:42:15.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1YQJgn-9vttTE0AkUMoX" version="24.3.1" type="github">
   <diagram name="Page-1" id="6l-aWB1IVbLnmjOB7kB2">
-    <mxGraphModel dx="1185" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-11" value="AI Servers" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="340" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-17" value="Moderation System" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="275" width="880" height="370" as="geometry" />
+        </mxCell>
         <mxCell id="HJ-X_CtZePHmuaZGEfmu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=120;entryDy=270;entryPerimeter=0;" edge="1" parent="1" source="HJ-X_CtZePHmuaZGEfmu-1" target="HJ-X_CtZePHmuaZGEfmu-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1110" y="430" as="targetPoint" />
@@ -18,11 +24,8 @@
         <mxCell id="HJ-X_CtZePHmuaZGEfmu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HJ-X_CtZePHmuaZGEfmu-3" target="HJ-X_CtZePHmuaZGEfmu-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HJ-X_CtZePHmuaZGEfmu-3" value="Text-to-speech algorithm" style="shape=module;align=center;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-3" value="Text-to-speech Algorithm" style="shape=module;align=center;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="390" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HJ-X_CtZePHmuaZGEfmu-11" value="AI Servers" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="340" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="HJ-X_CtZePHmuaZGEfmu-15" value="Broadcaster&#39;s Live-Streaming Client" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="360" width="270" height="230" as="geometry" />
@@ -30,19 +33,26 @@
         <mxCell id="HJ-X_CtZePHmuaZGEfmu-14" value="Audio Streaming Feeds" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="450" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HJ-X_CtZePHmuaZGEfmu-17" value="Moderation System" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="300" width="560" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="HJ-X_CtZePHmuaZGEfmu-18" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.457;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-18" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.449;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HJ-X_CtZePHmuaZGEfmu-15" target="HJ-X_CtZePHmuaZGEfmu-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820.0000000000002" y="465.1099999999999" as="sourcePoint" />
-            <mxPoint x="1021.89" y="429.36" as="targetPoint" />
+            <mxPoint x="842.4200000000001" y="470.86" as="sourcePoint" />
+            <mxPoint x="1021.88" y="429.36" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="840" y="465" />
-              <mxPoint x="840" y="400" />
-              <mxPoint x="1022" y="400" />
+              <mxPoint x="820" y="471" />
+              <mxPoint x="860" y="471" />
+              <mxPoint x="860" y="400" />
+              <mxPoint x="1000" y="400" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-19" value="Alert Generation Module" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="340" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-20" value="Generate Email Alerts To Moderators" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="430" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ-X_CtZePHmuaZGEfmu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HJ-X_CtZePHmuaZGEfmu-11" target="HJ-X_CtZePHmuaZGEfmu-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
